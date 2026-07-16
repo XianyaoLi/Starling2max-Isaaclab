@@ -1,0 +1,28 @@
+# --- ModalAI CAD-derived geometry: DO NOT publish (restricted CAD, see README) ---
+drone.usd
+drone_fixed.usd
+drone_physics.usd
+starling2max.usd
+demo_drone.usd
+*.usd
+meshes/
+*.obj
+*.mtl
+*.step
+*.stp
+
+# --- test / working outputs ---
+cam_test_out/
+demo_out/
+art_cam_out/
+*_cam_out/
+run_drone_nav.txt
+
+# --- stray images at repo ROOT (but keep docs/ media for the README) ---
+/*.png
+/*.npy
+
+# --- misc ---
+.claude/
+__pycache__/
+*.pyc
