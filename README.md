@@ -91,7 +91,6 @@ python v2/test_articulated.py --usd articulated_drone.usd
 | `test_starling_functions.py` | Functional test: 5 cameras + ToF depth, quad hover, keyboard tele-op, physical collisions |
 | `flatten_usd.py` | Bake a referenced USD into one self-contained file |
 | `make_demo_drone.py` | Generate the original placeholder quadrotor USD (no CAD needed) |
-| `make_media.py` | Render README media (6-view contact sheet + flight GIF) → `docs/` |
 
 **`v2/`** — articulated rotors: the 4 propellers become independent bodies on
 revolute joints that actually spin (velocity-driven).
@@ -101,7 +100,6 @@ revolute joints that actually spin (velocity-driven).
 | `make_articulated_drone.py` | Generate an articulated **placeholder** quad (base + 4 spinning rotors, no CAD) |
 | `make_articulated_from_mesh.py` | Turn a single-body asset into an articulated one — move each prop's meshes into a jointed body |
 | `test_articulated.py` | Functional test: stable hover, 5 cameras + ToF, **spinning props**, keyboard tele-op |
-| `render_flight_gif.py` | Render a looping takeoff+circle flight GIF for any drone USD |
 
 ---
 
