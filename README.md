@@ -109,9 +109,9 @@ revolute joints that actually spin (velocity-driven).
 
 | Key | Action |
 |---|---|
-| **Page Up / Page Down** | take off / climb · descend / land |
 | **↑ / ↓** | forward / back (forward = **−Y**) |
 | **← / →** | strafe left / right |
+| **Page Up / Page Down** | take off / climb · descend / land |
 | **Home** | reset upright on the ground |
 
 > Do **not** use `Space` — it is Isaac Sim's play/pause and freezes the sim.
